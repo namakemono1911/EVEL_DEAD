@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{bd95aade-5efb-40af-8587-760659c3a0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{d77f11ba-4b3a-4828-8b60-1e953b21587f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\weapon">
+      <UniqueIdentifier>{e4b86b4f-c7c0-4a31-9474-51f48116ba56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\bullet">
+      <UniqueIdentifier>{4aa1b726-0a06-48dc-9a4b-a1889a7fb8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\object">
+      <UniqueIdentifier>{e6fde61a-3c18-4ea4-93a5-37c082075feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{661027b4-6018-4238-861f-da8475ad83a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{c8179803-17be-4c12-814f-17efef4c8d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="collision">
+      <UniqueIdentifier>{3c3c3dff-b86b-49ad-b19b-5019752a298e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{af1e1729-71db-4e49-aeca-15b96a80adc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{735468f7-d4a1-462b-a8d4-b4bbe9467f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="light">
+      <UniqueIdentifier>{2bd8c214-67e4-4a86-b975-1aea6f241631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{0c5444d8-3c3d-4ee0-b457-4bd2ccaae1fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\player">
+      <UniqueIdentifier>{19348088-2d31-495f-8d35-11c92aa4174d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="result">
+      <UniqueIdentifier>{c3d31565-f9ad-406d-ab47-bf1b12fdc22f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="title">
+      <UniqueIdentifier>{6eb19fd4-d415-4694-bfcc-7aa5a30e933e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\zombie">
+      <UniqueIdentifier>{f7602274-8e46-4860-bdcb-7ab50608c7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\weapon\weaponState">
+      <UniqueIdentifier>{68fbff86-41c5-4a17-b0ea-691816324e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{945b8fe9-027c-49a8-86f2-97c69ac185a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\player\playerState">
+      <UniqueIdentifier>{b0876d5b-cd8b-468c-a979-577fc33f1236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{13eeb6a9-0d1f-4382-8186-cc6107e4898e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\zombie\state">
+      <UniqueIdentifier>{692d6467-329b-4ccc-b82c-9cb5acd79480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texture">
+      <UniqueIdentifier>{b2db5b79-3893-4cc4-8503-70dfd1715848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\stamp">
+      <UniqueIdentifier>{f8883b01-4656-4b5c-8608-ea7b68cad19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\stamp\stampState">
+      <UniqueIdentifier>{223055a8-4e71-4b4a-97d9-d8ddd381975f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scene3D">
+      <UniqueIdentifier>{27759456-c88d-4359-af50-bf48fd42f9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scene3D\scene3DState">
+      <UniqueIdentifier>{79675367-8bf2-41d7-9448-2375fee23e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\mesh">
+      <UniqueIdentifier>{8175aece-8f81-47b8-a66f-c69f3bfc7cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\model">
+      <UniqueIdentifier>{331a1bf2-456b-4d0a-878e-e5d775e714ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\grid">
+      <UniqueIdentifier>{c4c792eb-5a25-4013-926f-2fef3af3341c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\2D">
+      <UniqueIdentifier>{ff466fdf-ffa9-4309-a851-eff85ec90569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\transform">
+      <UniqueIdentifier>{43b9bec8-199b-4f9a-a1dc-a43c51a9430e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{1b754c81-5cde-4749-ae41-b31f8439fd88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX21_01.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>game\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>game\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponFactory.cpp">
+      <Filter>game\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="coin.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionBall.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionBox.cpp">
+      <Filter>collision</Filter>
+    </ClCompile>
+    <ClCompile Include="directory.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="kamome.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>light</Filter>
+    </ClCompile>
+    <ClCompile Include="load.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon2D.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="save.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="resultBG.cpp">
+      <Filter>result</Filter>
+    </ClCompile>
+    <ClCompile Include="reticle.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="stage.cpp">
+      <Filter>game\object</Filter>
+    </ClCompile>
+    <ClCompile Include="titleBG.cpp">
+      <Filter>title</Filter>
+    </ClCompile>
+    <ClCompile Include="zombie.cpp">
+      <Filter>game\zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponState.cpp">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponAim.cpp">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponMoving.cpp">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponNeutral.cpp">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponReload.cpp">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="weaponShot.cpp">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="convenient.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="vec.cpp">
+      <Filter>other</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState.cpp">
+      <Filter>game\player\playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerMoving.cpp">
+      <Filter>game\player\playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="playerNeutral.cpp">
+      <Filter>game\player\playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="playerDebug.cpp">
+      <Filter>game\player\playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="zombieState.cpp">
+      <Filter>game\zombie\state</Filter>
+    </ClCompile>
+    <ClCompile Include="zombieNeutral.cpp">
+      <Filter>game\zombie\state</Filter>
+    </ClCompile>
+    <ClCompile Include="zombieWalk.cpp">
+      <Filter>game\zombie\state</Filter>
+    </ClCompile>
+    <ClCompile Include="zombieAttack.cpp">
+      <Filter>game\zombie\state</Filter>
+    </ClCompile>
+    <ClCompile Include="zombieDead.cpp">
+      <Filter>game\zombie\state</Filter>
+    </ClCompile>
+    <ClCompile Include="textureManager.cpp">
+      <Filter>texture</Filter>
+    </ClCompile>
+    <ClCompile Include="stamp3D.cpp">
+      <Filter>game\stamp</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3D.cpp">
+      <Filter>scene\scene3D</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>scene\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneModel.cpp">
+      <Filter>scene\model</Filter>
+    </ClCompile>
+    <ClCompile Include="modelData.cpp">
+      <Filter>scene\model</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>scene\model</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneGrid.cpp">
+      <Filter>scene\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2D.cpp">
+      <Filter>scene\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="outlaw2D.cpp">
+      <Filter>scene\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>scene\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3DState.cpp">
+      <Filter>scene\scene3D\scene3DState</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3DTextureAnimation.cpp">
+      <Filter>scene\scene3D\scene3DState</Filter>
+    </ClCompile>
+    <ClCompile Include="scene3DBillboard.cpp">
+      <Filter>scene\scene3D\scene3DState</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="playerEdit.cpp">
+      <Filter>game\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>game\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>game\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponFactory.h">
+      <Filter>game\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="coin.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionBall.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionBox.h">
+      <Filter>collision</Filter>
+    </ClInclude>
+    <ClInclude Include="directory.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="kamome.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>light</Filter>
+    </ClInclude>
+    <ClInclude Include="load.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon2D.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="save.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="resultBG.h">
+      <Filter>result</Filter>
+    </ClInclude>
+    <ClInclude Include="reticle.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>game\object</Filter>
+    </ClInclude>
+    <ClInclude Include="titleBG.h">
+      <Filter>title</Filter>
+    </ClInclude>
+    <ClInclude Include="zombie.h">
+      <Filter>game\zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponState.h">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponAim.h">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponShot.h">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponMoving.h">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponNeutral.h">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponReload.h">
+      <Filter>game\weapon\weaponState</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="convenient.h">
+      <Filter>other</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState.h">
+      <Filter>game\player\playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerMoving.h">
+      <Filter>game\player\playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="playerNeutral.h">
+      <Filter>game\player\playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="playerDebug.h">
+      <Filter>game\player\playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="zombieState.h">
+      <Filter>game\zombie\state</Filter>
+    </ClInclude>
+    <ClInclude Include="zombieNeutral.h">
+      <Filter>game\zombie\state</Filter>
+    </ClInclude>
+    <ClInclude Include="zombieWalk.h">
+      <Filter>game\zombie\state</Filter>
+    </ClInclude>
+    <ClInclude Include="zombieAttack.h">
+      <Filter>game\zombie\state</Filter>
+    </ClInclude>
+    <ClInclude Include="zombieDead.h">
+      <Filter>game\zombie\state</Filter>
+    </ClInclude>
+    <ClInclude Include="textureManager.h">
+      <Filter>texture</Filter>
+    </ClInclude>
+    <ClInclude Include="stamp3D.h">
+      <Filter>game\stamp</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3D.h">
+      <Filter>scene\scene3D</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>scene\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneModel.h">
+      <Filter>scene\model</Filter>
+    </ClInclude>
+    <ClInclude Include="modelData.h">
+      <Filter>scene\model</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>scene\model</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneGrid.h">
+      <Filter>scene\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2D.h">
+      <Filter>scene\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="outlaw2D.h">
+      <Filter>scene\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>scene\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3DState.h">
+      <Filter>scene\scene3D\scene3DState</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3DTextureAnimation.h">
+      <Filter>scene\scene3D\scene3DState</Filter>
+    </ClInclude>
+    <ClInclude Include="scene3DBillboard.h">
+      <Filter>scene\scene3D\scene3DState</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="playerEdit.h">
+      <Filter>game\player</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

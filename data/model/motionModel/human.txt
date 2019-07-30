@@ -1,0 +1,93 @@
+#####################################################
+# キーフレーム保存
+#####################################################
+PARTS_NAME body.x
+PARTS_NAME head.x
+PARTS_NAME leftArm01.x
+PARTS_NAME leftArm02.x
+PARTS_NAME rightArm01.x
+PARTS_NAME rightArm02.x
+PARTS_NAME leftLeg01.x
+PARTS_NAME leftLeg02.x
+PARTS_NAME rightLeg01.x
+PARTS_NAME rightLeg02.x
+SET_PARTS body.x
+{
+	pearent	= NULL
+	pos		= 0.000000 12.900001 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS head.x
+{
+	pearent	= body.x
+	pos		= 0.000000 11.200001 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS leftArm01.x
+{
+	pearent	= body.x
+	pos		= -3.600000 9.300000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS leftArm02.x
+{
+	pearent	= leftArm01.x
+	pos		= -6.500000 0.000000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS rightArm01.x
+{
+	pearent	= body.x
+	pos		= 3.600000 9.300000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS rightArm02.x
+{
+	pearent	= rightArm01.x
+	pos		= 6.500000 0.000000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS leftLeg01.x
+{
+	pearent	= body.x
+	pos		= 1.900000 0.000000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS leftLeg02.x
+{
+	pearent	= leftLeg01.x
+	pos		= 0.000000 -6.500000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS rightLeg01.x
+{
+	pearent	= body.x
+	pos		= -1.900000 0.000000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
+SET_PARTS rightLeg02.x
+{
+	pearent	= rightLeg01.x
+	pos		= 0.000000 -6.500000 0.000000
+	rot		= 0.000000 0.000000 0.000000
+	size	= 1.000000 1.000000 1.000000
+}
+
